@@ -1,3 +1,7 @@
+"""
+https://huggingface.co/transformers/custom_datasets.html
+"""
+
 import torch
 import sys
 import os
@@ -6,8 +10,8 @@ import os
 from pathlib import Path
 
 
-os.system("wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz")
-os.system("tar -xf aclImdb_v1.tar.gz")
+#os.system("wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz")
+#os.system("tar -xf aclImdb_v1.tar.gz")
 
 
 def read_imdb_split(split_dir):
